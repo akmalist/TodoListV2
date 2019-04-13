@@ -14,7 +14,8 @@ h1 {
   margin: 0;
   padding: 10px 20px;
   text-transform: uppercase;
-  font-size: 24px;
+/*    font-size: 24px;*/
+  font-size: 2rem;
   font-weight: normal;
   /* font-family: 'Merienda', cursive;*/
   /* font-family: 'Kalam', cursive; */
@@ -33,8 +34,13 @@ ul {
 
 li {
   background: #fff;
+      height: 4rem;
+    line-height: 4rem;
+    
+/*
   height: 40px;
   line-height: 40px;
+*/
   color: #666;
 }
 
@@ -45,14 +51,15 @@ li:nth-child(2n) {
 
 
 li:hover span{
-  width:40px;
+/*  width:40px;*/
+  width: 3rem;
   opacity: 1.0;
 }
 
 span{
   background: #e74c3c;
-  height: 40px;
-  margin-right: 20px;
+  height: 4rem;
+  margin-right: 3rem;
   text-align: center;
   color: white;
   width: 0;
@@ -63,7 +70,8 @@ span{
 
 
 input {
-  font-size: 18px;
+/*     font-size: 18px; */
+  font-size: 1.5rem; 
   color: #2980b9;
   background-color: #f7f7f7;
   width: 100%;
@@ -78,9 +86,9 @@ input:focus {
   outline: none;
 }
 
-#container {
-  width: 360px;
-  margin: 100px auto;
+ #container {
+  width: 30rem;
+  margin: 23% auto;
   background: #f7f7f7;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2)
 }
